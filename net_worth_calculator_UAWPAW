@@ -4,8 +4,8 @@ determine what your net worth should be according to \
 the authors of 'The Millionaire Next Door.' \
 This is program calculates what your net worth \
 should be by dividing the product of your age and \
-income from all household sources divided by 10. \
-Please do not include inheritances! \
+income from all household sources divided by 10, \
+excluding inheritances. \
 Finally, utilizing your data we will determine if \
 you are a PAW or UAW. That is, a prodigious \
 accumulator of wealth or an under accumulator of wealth. \
