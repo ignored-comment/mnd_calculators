@@ -8,7 +8,8 @@ income from all household sources divided by 10, \
 excluding inheritances. \
 Finally, utilizing your data we will determine if \
 you are a PAW or UAW. That is, a prodigious \
-accumulator of wealth or an under accumulator of wealth.")
+accumulator of wealth (PAW) or an \
+under accumulator of wealth. (UAW)")
 
 print("First, what is your age?")
 age = input()
