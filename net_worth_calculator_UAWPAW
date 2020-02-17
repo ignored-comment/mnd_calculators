@@ -1,0 +1,35 @@
+print("Hello. This is the 'Millionaire Next Door' Wealth Calculator.\
+This calculator should help you to \
+determine how much your net worth should be according to \
+the authors of 'The Millionaire Next Door.' \
+This is program calculates what your net worth \
+should be by dividing the product of your age and \
+income from all household sources divided by 10.\
+Finally, utilizing your data we will determine if \
+you are a PAW or UAW. That is, a prodigious \
+accumulator of wealth or an under accumulator of wealth. \
+You might even be a AAW. That is, an average accumulator of wealth!")
+
+print("First, what is your age?")
+age = input()
+
+print("And what is your total income? Please include all sources \
+but do not include inheritance.")
+total_income = input()
+
+print("Thank you. Your net worth should be: ")
+answer = int(age) * int(total_income) / 10
+print(answer)
+
+print("Now that we've determined your targeted net worth, \
+what is your actual net worth?")
+actual_worth = input()
+
+if int(actual_worth) > int(answer) * 2:
+    print("Well done. You are a prodigious accumulator of wealth, \
+or PAW.")
+elif int(actual_worth) < int(answer) * 2:
+    print("According to this calculator, you are an \
+underachieving accumulator \
+of wealth. Please read through 'The Millionaire Next Door' \
+to improve your net worth!")
